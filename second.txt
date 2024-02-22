@@ -182,3 +182,4 @@ Date:   Thu Feb 22 13:26:28 2024 +0530
 KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
 $ notepad second.txt
 
+this is the introduction to the github
