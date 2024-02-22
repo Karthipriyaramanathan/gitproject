@@ -1,0 +1,128 @@
+Hi this is git creation process
+
+#comments
+
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ pwd
+/c/Users/KARTHIPRIYA R
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ mkdir gitlearning
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ ls g*
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ mkdir gitlearnings
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ ls g*
+gitlearning:
+
+gitlearnings:
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~
+$ cd gitlearnings
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings
+$ pwd
+/c/Users/KARTHIPRIYA R/gitlearnings
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings
+$ mkdir gitproject
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings
+$ cd gitproject
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --global user.name = karthipriyaramanathan
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --global user.email = karthipriyaramanathan@gmail.com
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name==
+user.email==
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --global user.name =karthipriyaramanathan
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --global user.email =karthipriyaramanathan
+2
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --global user.email =karthipriyaramanathan@gmail.com
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/etc/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name==karthipriyaramanathan
+user.email==karthipriyaramanathan@gmail.com
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject
+$ git init
+Initialized empty Git repository in C:/Users/KARTHIPRIYA R/gitlearnings/gitproject/.git/
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
+$ ls
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
+$ ls -a
+./  ../  .git/
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
+$ touch first.txt
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
+$ ls
+first.txt
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        first.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+KARTHIPRIYA R@DESKTOP-DG9JFJP MINGW64 ~/gitlearnings/gitproject (master)
+$ notepad first.txt
+
